@@ -1,0 +1,198 @@
+/* 全体向け */
+*{
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+.container{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #000033;
+  color: #FFF;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo{
+  font-family:'impact';
+  font-size: 40px;
+  float: left;
+  padding: 0px 30px;
+  line-height: 100px;
+}
+
+.header-list li{
+  font-family:serif;
+  font-size: 20px;
+  float: left;
+  list-style: none;
+  padding: 0px 30px;
+  line-height: 70px;
+  cursor: pointer;
+}
+
+.sns{
+  display: inline-block;
+  padding: 0px 30px 0px 0px;
+  line-height: 70px;
+  float: right;
+
+}
+
+.fb{
+  color: white;
+}
+
+.tw{
+  color: white;
+}
+
+/* メイン */
+.main{
+  font-family: 'YuMincho';
+  padding: 0px 30px;
+}
+
+  /* タイトル */
+.copy-container h1{
+  font-size: 60px;
+  font-family: 'impact';
+  text-align: center;
+}
+
+.copy-container h2{
+  font-size: 30px;
+}
+
+.copy-container span{
+  color:#ff4a4a
+}
+
+  /* コンテンツアイテム */
+.contents{
+  overflow: hidden;
+}
+
+.contents-item{
+  float:left;
+  padding: 3px;
+  border-bottom: 2px solid #bbb ;
+  margin-bottom: 50px;
+}
+
+.contents-item img{
+  height:330px;
+  width:330px;
+  opacity: 0.5;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.contents-item img:hover{
+  opacity: 1;
+}
+
+/* 本文 */
+.main-message{
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+/* FAQ */
+.faq-frame{
+  margin-top: 150px;
+}
+
+.faq{
+  padding: 10px;
+  margin: 1px auto;
+  width: 95%;
+  border: 2px solid #f0f8ff;
+}
+
+.question{
+  background-color: #123166;
+  color: white;
+}
+
+.answer{
+  display: none;
+}
+
+/* コンタクトフォーム */
+.contact-form {
+  width: 100%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.contact-form h3{
+  padding-left: 50px;
+}
+
+.contact-form span{
+  color: red;
+  display: none;
+}
+
+textarea{
+  display: inline-block;
+  width: 75%;
+  margin: 0 0 50px 20px;
+
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+input{
+  display: inline-block;
+  float: right;
+  width:20%;
+  margin: 10px 0 0 0;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  cursor: pointer;
+}
+
+.contact-submit{
+  background-color: rgba(117,169,255,0.5);
+  color:#444444;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.contact-submit:hover{
+  background-color: rgba(117,169,255,1);
+  transition: all 0.3s;
+}
+
+.contact-submit:active{
+  position: relative;
+  top: 2px;
+}
+
+/* フッター */
+.footer{
+  overflow: hidden;
+  background-color: #000033;
+  color: #fff;
+}
+
+.footer-logo{
+  font-family:'impact';
+  font-size: 20px;
+  float: right;
+  padding: 20px;
+}
+
+.footer-list li{
+  font-family:serif;
+  font-size: 15px;
+  list-style: none;
+  padding: 5px;
+}
